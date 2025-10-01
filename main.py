@@ -15,7 +15,7 @@ class Post(BaseModel):
 my_posts = [{"title":"title of post 1", "content": "content of post 1", "id":1},
     {"title": "favourite food", "content": "i like masa","id":2}]
 
-def find_post
+#def find_post
 
 @app.get("/")
 async def root():
